@@ -1,0 +1,18 @@
+#masthead {
+    padding: 20px;
+}
+
+.site-title {
+    font-family: $syncopate;
+    margin-bottom: 0px;
+    a {
+        font-size: 28px;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.site-description {
+    font-style: italic;
+}
