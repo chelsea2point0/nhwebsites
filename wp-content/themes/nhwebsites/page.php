@@ -14,6 +14,16 @@
 
 get_header(); ?>
 
+    <?php if (is_front_page()) : ?>
+        <div id="top-section-home">
+            <div class="container">
+                <h1>Time for a website refresh?</h1>
+                <p>We are a team of local developers dedicated to working with New Hampshire businesses</p>
+                <button class="button-red">Learn More</button>
+            </div>
+        </div>
+    <?php endif; ?>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main container">
 

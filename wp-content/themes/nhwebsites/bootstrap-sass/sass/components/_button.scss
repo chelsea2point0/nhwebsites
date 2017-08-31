@@ -21,3 +21,8 @@ $button-border-width: 1px;
     @extend button;
     @include nhws-button-theme($red, $lightBlue);
 }
+
+.button-white {
+    @extend button;
+    @include nhws-button-theme($white, $red);
+}

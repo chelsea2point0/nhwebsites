@@ -1,11 +1,12 @@
 #masthead {
-    padding: 20px;
+    padding: 20px 20px 10px;
 }
 
 .site-title {
     font-family: $syncopate;
     margin-bottom: 0px;
     a {
+        color: $red;
         font-size: 28px;
         &:hover {
             text-decoration: none;
