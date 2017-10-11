@@ -110,6 +110,31 @@ function nhwebsites_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+
+    register_sidebar(array(
+       'name' => 'Home Page Left',
+       'before_widget' => '<div class = "homeWidgetArea">',
+       'after_widget' => '</div>',
+       'before_title' => '<h3>',
+       'after_title' => '</h3>',
+     ) );
+
+    register_sidebar(array(
+       'name' => 'Home Page Middle',
+       'before_widget' => '<div class = "homeWidgetArea">',
+       'after_widget' => '</div>',
+       'before_title' => '<h3>',
+       'after_title' => '</h3>',
+     ) );
+
+    register_sidebar(array(
+       'name' => 'Home Page Right',
+       'before_widget' => '<div class = "homeWidgetArea">',
+       'after_widget' => '</div>',
+       'before_title' => '<h3>',
+       'after_title' => '</h3>',
+     ) );
+
 }
 add_action( 'widgets_init', 'nhwebsites_widgets_init' );
 
@@ -123,11 +148,15 @@ function nhwebsites_scripts() {
     wp_enqueue_style( 'nhws-fira-font', "https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:300,400,400i,600,800" );
     wp_enqueue_style( 'nhws-syncopate-font', "https://fonts.googleapis.com/css?family=Syncopate" );
 
+
     wp_enqueue_style( 'nhwebsites-css', get_template_directory_uri() . '/bootstrap-sass/stylesheets/styles.css' );
 
 	wp_enqueue_script( 'nhwebsites-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'nhwebsites-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+
+    wp_enqueue_script( 'font-awesome', "https://use.fontawesome.com/044f2e4223.js" );
+
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

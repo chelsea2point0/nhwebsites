@@ -8919,7 +8919,7 @@ h6 {
 
 /* line 1, ../sass/base/_base_styles.scss */
 body {
-  color: #3B3B3B;
+  color: #585858;
   font-family: "Fira Sans Extra Condensed", sans-serif;
 }
 
@@ -8995,11 +8995,11 @@ a:visited {
 }
 /* line 8, ../sass/layout/_header.scss */
 .site-title a {
-  color: #cd5c5c;
+  color: #118C4E;
   font-size: 28px;
 }
 /* line 11, ../sass/layout/_header.scss */
-.site-title a:hover {
+.site-title a:hover, .site-title a:active, .site-title a:visited, .site-title a:focus {
   text-decoration: none;
 }
 
@@ -9039,13 +9039,24 @@ a:visited {
   width: 100%;
 }
 
-/* line 13, ../sass/pages/_front-page.scss */
+/* line 14, ../sass/pages/_front-page.scss */
+#middle-section-home .fa, #middle-section-home h3 {
+  color: #118C4E;
+}
+
+/* line 19, ../sass/pages/_front-page.scss */
 .oversized-text {
   font-size: 28px;
 }
 
-/* line 17, ../sass/pages/_front-page.scss */
+/* line 23, ../sass/pages/_front-page.scss */
 .home-cta {
   font-size: 26px;
   margin-top: 36px;
+}
+
+/* line 28, ../sass/pages/_front-page.scss */
+.homeWidgetArea {
+  text-align: center;
+  margin: 80px 0;
 }

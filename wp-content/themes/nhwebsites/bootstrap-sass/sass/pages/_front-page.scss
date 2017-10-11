@@ -10,6 +10,12 @@
     width: 100%;
 }
 
+#middle-section-home {
+    .fa, h3 {
+        color: $green;
+    }
+}
+
 .oversized-text {
     font-size: 28px;
 }
@@ -17,4 +23,9 @@
 .home-cta {
     font-size: 26px;
     margin-top: 36px;
+}
+
+.homeWidgetArea {
+    text-align: center;
+    margin: 80px 0;
 }

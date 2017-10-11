@@ -6,9 +6,9 @@
     font-family: $syncopate;
     margin-bottom: 0px;
     a {
-        color: $red;
+        color: $green;
         font-size: 28px;
-        &:hover {
+        &:hover, &:active, &:visited, &:focus {
             text-decoration: none;
         }
     }

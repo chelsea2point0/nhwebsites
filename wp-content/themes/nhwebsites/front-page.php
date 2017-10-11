@@ -22,6 +22,26 @@ get_header(); ?>
         </div>
     </div>
 
+    <div id="middle-section-home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Home Page Left") ) : ?>
+                    <?php endif;?>
+                </div>
+                <div class="col-md-4">
+                    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Home Page Middle") ) : ?>
+                    <?php endif;?>
+                </div>
+                <div class="col-md-4">
+                    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Home Page Right") ) : ?>
+                    <?php endif;?>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main container">
 
