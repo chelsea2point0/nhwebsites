@@ -154,7 +154,7 @@ samp {
 }
 
 /* line 252, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_normalize.scss */
-button, .button-blue, .button-red, .button-white,
+button, .button-blue, .button-red, .button-white, .button-orange,
 input,
 optgroup,
 select,
@@ -165,18 +165,18 @@ textarea {
 }
 
 /* line 266, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_normalize.scss */
-button, .button-blue, .button-red, .button-white {
+button, .button-blue, .button-red, .button-white, .button-orange {
   overflow: visible;
 }
 
 /* line 277, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_normalize.scss */
-button, .button-blue, .button-red, .button-white,
+button, .button-blue, .button-red, .button-white, .button-orange,
 select {
   text-transform: none;
 }
 
 /* line 290, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_normalize.scss */
-button, .button-blue, .button-red, .button-white,
+button, .button-blue, .button-red, .button-white, .button-orange,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -185,13 +185,13 @@ input[type="submit"] {
 }
 
 /* line 302, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_normalize.scss */
-button[disabled], [disabled].button-blue, [disabled].button-red, [disabled].button-white,
+button[disabled], [disabled].button-blue, [disabled].button-red, [disabled].button-white, [disabled].button-orange,
 html input[disabled] {
   cursor: default;
 }
 
 /* line 311, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_normalize.scss */
-button::-moz-focus-inner, .button-blue::-moz-focus-inner, .button-red::-moz-focus-inner, .button-white::-moz-focus-inner,
+button::-moz-focus-inner, .button-blue::-moz-focus-inner, .button-red::-moz-focus-inner, .button-white::-moz-focus-inner, .button-orange::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -1730,6 +1730,7 @@ button,
 .button-blue,
 .button-red,
 .button-white,
+.button-orange,
 select,
 textarea {
   font-family: inherit;
@@ -6969,7 +6970,8 @@ a.list-group-item,
 button.list-group-item,
 .list-group-item.button-blue,
 .list-group-item.button-red,
-.list-group-item.button-white {
+.list-group-item.button-white,
+.list-group-item.button-orange {
   color: #555;
 }
 /* line 50, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_list-group.scss */
@@ -6977,7 +6979,8 @@ a.list-group-item .list-group-item-heading,
 button.list-group-item .list-group-item-heading,
 .list-group-item.button-blue .list-group-item-heading,
 .list-group-item.button-red .list-group-item-heading,
-.list-group-item.button-white .list-group-item-heading {
+.list-group-item.button-white .list-group-item-heading,
+.list-group-item.button-orange .list-group-item-heading {
   color: #333;
 }
 /* line 55, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_list-group.scss */
@@ -6986,17 +6989,19 @@ button.list-group-item:hover,
 .list-group-item.button-blue:hover,
 .list-group-item.button-red:hover,
 .list-group-item.button-white:hover,
+.list-group-item.button-orange:hover,
 button.list-group-item:focus,
 .list-group-item.button-blue:focus,
 .list-group-item.button-red:focus,
-.list-group-item.button-white:focus {
+.list-group-item.button-white:focus,
+.list-group-item.button-orange:focus {
   text-decoration: none;
   color: #555;
   background-color: #f5f5f5;
 }
 
 /* line 63, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_list-group.scss */
-button.list-group-item, .list-group-item.button-blue, .list-group-item.button-red, .list-group-item.button-white {
+button.list-group-item, .list-group-item.button-blue, .list-group-item.button-red, .list-group-item.button-white, .list-group-item.button-orange {
   width: 100%;
   text-align: left;
 }
@@ -7048,7 +7053,8 @@ a.list-group-item-success,
 button.list-group-item-success,
 .list-group-item-success.button-blue,
 .list-group-item-success.button-red,
-.list-group-item-success.button-white {
+.list-group-item-success.button-white,
+.list-group-item-success.button-orange {
   color: #3c763d;
 }
 /* line 15, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7056,7 +7062,8 @@ a.list-group-item-success .list-group-item-heading,
 button.list-group-item-success .list-group-item-heading,
 .list-group-item-success.button-blue .list-group-item-heading,
 .list-group-item-success.button-red .list-group-item-heading,
-.list-group-item-success.button-white .list-group-item-heading {
+.list-group-item-success.button-white .list-group-item-heading,
+.list-group-item-success.button-orange .list-group-item-heading {
   color: inherit;
 }
 /* line 19, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7065,10 +7072,12 @@ button.list-group-item-success:hover,
 .list-group-item-success.button-blue:hover,
 .list-group-item-success.button-red:hover,
 .list-group-item-success.button-white:hover,
+.list-group-item-success.button-orange:hover,
 button.list-group-item-success:focus,
 .list-group-item-success.button-blue:focus,
 .list-group-item-success.button-red:focus,
-.list-group-item-success.button-white:focus {
+.list-group-item-success.button-white:focus,
+.list-group-item-success.button-orange:focus {
   color: #3c763d;
   background-color: #d0e9c6;
 }
@@ -7078,14 +7087,17 @@ button.list-group-item-success.active,
 .list-group-item-success.active.button-blue,
 .list-group-item-success.active.button-red,
 .list-group-item-success.active.button-white,
+.list-group-item-success.active.button-orange,
 button.list-group-item-success.active:hover,
 .list-group-item-success.active.button-blue:hover,
 .list-group-item-success.active.button-red:hover,
 .list-group-item-success.active.button-white:hover,
+.list-group-item-success.active.button-orange:hover,
 button.list-group-item-success.active:focus,
 .list-group-item-success.active.button-blue:focus,
 .list-group-item-success.active.button-red:focus,
-.list-group-item-success.active.button-white:focus {
+.list-group-item-success.active.button-white:focus,
+.list-group-item-success.active.button-orange:focus {
   color: #fff;
   background-color: #3c763d;
   border-color: #3c763d;
@@ -7102,7 +7114,8 @@ a.list-group-item-info,
 button.list-group-item-info,
 .list-group-item-info.button-blue,
 .list-group-item-info.button-red,
-.list-group-item-info.button-white {
+.list-group-item-info.button-white,
+.list-group-item-info.button-orange {
   color: #31708f;
 }
 /* line 15, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7110,7 +7123,8 @@ a.list-group-item-info .list-group-item-heading,
 button.list-group-item-info .list-group-item-heading,
 .list-group-item-info.button-blue .list-group-item-heading,
 .list-group-item-info.button-red .list-group-item-heading,
-.list-group-item-info.button-white .list-group-item-heading {
+.list-group-item-info.button-white .list-group-item-heading,
+.list-group-item-info.button-orange .list-group-item-heading {
   color: inherit;
 }
 /* line 19, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7119,10 +7133,12 @@ button.list-group-item-info:hover,
 .list-group-item-info.button-blue:hover,
 .list-group-item-info.button-red:hover,
 .list-group-item-info.button-white:hover,
+.list-group-item-info.button-orange:hover,
 button.list-group-item-info:focus,
 .list-group-item-info.button-blue:focus,
 .list-group-item-info.button-red:focus,
-.list-group-item-info.button-white:focus {
+.list-group-item-info.button-white:focus,
+.list-group-item-info.button-orange:focus {
   color: #31708f;
   background-color: #c4e3f3;
 }
@@ -7132,14 +7148,17 @@ button.list-group-item-info.active,
 .list-group-item-info.active.button-blue,
 .list-group-item-info.active.button-red,
 .list-group-item-info.active.button-white,
+.list-group-item-info.active.button-orange,
 button.list-group-item-info.active:hover,
 .list-group-item-info.active.button-blue:hover,
 .list-group-item-info.active.button-red:hover,
 .list-group-item-info.active.button-white:hover,
+.list-group-item-info.active.button-orange:hover,
 button.list-group-item-info.active:focus,
 .list-group-item-info.active.button-blue:focus,
 .list-group-item-info.active.button-red:focus,
-.list-group-item-info.active.button-white:focus {
+.list-group-item-info.active.button-white:focus,
+.list-group-item-info.active.button-orange:focus {
   color: #fff;
   background-color: #31708f;
   border-color: #31708f;
@@ -7156,7 +7175,8 @@ a.list-group-item-warning,
 button.list-group-item-warning,
 .list-group-item-warning.button-blue,
 .list-group-item-warning.button-red,
-.list-group-item-warning.button-white {
+.list-group-item-warning.button-white,
+.list-group-item-warning.button-orange {
   color: #8a6d3b;
 }
 /* line 15, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7164,7 +7184,8 @@ a.list-group-item-warning .list-group-item-heading,
 button.list-group-item-warning .list-group-item-heading,
 .list-group-item-warning.button-blue .list-group-item-heading,
 .list-group-item-warning.button-red .list-group-item-heading,
-.list-group-item-warning.button-white .list-group-item-heading {
+.list-group-item-warning.button-white .list-group-item-heading,
+.list-group-item-warning.button-orange .list-group-item-heading {
   color: inherit;
 }
 /* line 19, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7173,10 +7194,12 @@ button.list-group-item-warning:hover,
 .list-group-item-warning.button-blue:hover,
 .list-group-item-warning.button-red:hover,
 .list-group-item-warning.button-white:hover,
+.list-group-item-warning.button-orange:hover,
 button.list-group-item-warning:focus,
 .list-group-item-warning.button-blue:focus,
 .list-group-item-warning.button-red:focus,
-.list-group-item-warning.button-white:focus {
+.list-group-item-warning.button-white:focus,
+.list-group-item-warning.button-orange:focus {
   color: #8a6d3b;
   background-color: #faf2cc;
 }
@@ -7186,14 +7209,17 @@ button.list-group-item-warning.active,
 .list-group-item-warning.active.button-blue,
 .list-group-item-warning.active.button-red,
 .list-group-item-warning.active.button-white,
+.list-group-item-warning.active.button-orange,
 button.list-group-item-warning.active:hover,
 .list-group-item-warning.active.button-blue:hover,
 .list-group-item-warning.active.button-red:hover,
 .list-group-item-warning.active.button-white:hover,
+.list-group-item-warning.active.button-orange:hover,
 button.list-group-item-warning.active:focus,
 .list-group-item-warning.active.button-blue:focus,
 .list-group-item-warning.active.button-red:focus,
-.list-group-item-warning.active.button-white:focus {
+.list-group-item-warning.active.button-white:focus,
+.list-group-item-warning.active.button-orange:focus {
   color: #fff;
   background-color: #8a6d3b;
   border-color: #8a6d3b;
@@ -7210,7 +7236,8 @@ a.list-group-item-danger,
 button.list-group-item-danger,
 .list-group-item-danger.button-blue,
 .list-group-item-danger.button-red,
-.list-group-item-danger.button-white {
+.list-group-item-danger.button-white,
+.list-group-item-danger.button-orange {
   color: #a94442;
 }
 /* line 15, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7218,7 +7245,8 @@ a.list-group-item-danger .list-group-item-heading,
 button.list-group-item-danger .list-group-item-heading,
 .list-group-item-danger.button-blue .list-group-item-heading,
 .list-group-item-danger.button-red .list-group-item-heading,
-.list-group-item-danger.button-white .list-group-item-heading {
+.list-group-item-danger.button-white .list-group-item-heading,
+.list-group-item-danger.button-orange .list-group-item-heading {
   color: inherit;
 }
 /* line 19, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7227,10 +7255,12 @@ button.list-group-item-danger:hover,
 .list-group-item-danger.button-blue:hover,
 .list-group-item-danger.button-red:hover,
 .list-group-item-danger.button-white:hover,
+.list-group-item-danger.button-orange:hover,
 button.list-group-item-danger:focus,
 .list-group-item-danger.button-blue:focus,
 .list-group-item-danger.button-red:focus,
-.list-group-item-danger.button-white:focus {
+.list-group-item-danger.button-white:focus,
+.list-group-item-danger.button-orange:focus {
   color: #a94442;
   background-color: #ebcccc;
 }
@@ -7240,14 +7270,17 @@ button.list-group-item-danger.active,
 .list-group-item-danger.active.button-blue,
 .list-group-item-danger.active.button-red,
 .list-group-item-danger.active.button-white,
+.list-group-item-danger.active.button-orange,
 button.list-group-item-danger.active:hover,
 .list-group-item-danger.active.button-blue:hover,
 .list-group-item-danger.active.button-red:hover,
 .list-group-item-danger.active.button-white:hover,
+.list-group-item-danger.active.button-orange:hover,
 button.list-group-item-danger.active:focus,
 .list-group-item-danger.active.button-blue:focus,
 .list-group-item-danger.active.button-red:focus,
-.list-group-item-danger.active.button-white:focus {
+.list-group-item-danger.active.button-white:focus,
+.list-group-item-danger.active.button-orange:focus {
   color: #fff;
   background-color: #a94442;
   border-color: #a94442;
@@ -7785,7 +7818,7 @@ button.list-group-item-danger.active:focus,
 }
 
 /* line 30, ../../../../../../../.rvm/gems/ruby-2.3.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_close.scss */
-button.close, .close.button-blue, .close.button-red, .close.button-white {
+button.close, .close.button-blue, .close.button-red, .close.button-white, .close.button-orange {
   padding: 0;
   cursor: pointer;
   background: transparent;
@@ -8979,8 +9012,20 @@ a:visited {
 }
 /* line 6, ../sass/utils/_mixins.scss */
 .button-white:hover {
-  color: #cd5c5c;
+  color: #585858;
   background-color: #fff;
+}
+
+/* line 30, ../sass/components/_button.scss */
+.button-orange {
+  color: #FF9009;
+  border-color: #FF9009;
+  background-color: transparent;
+}
+/* line 6, ../sass/utils/_mixins.scss */
+.button-orange:hover {
+  color: #fff;
+  background-color: #FF9009;
 }
 
 /* line 1, ../sass/layout/_header.scss */
@@ -9032,6 +9077,9 @@ a:visited {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  -webkit-filter: grayscale(70%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(70%);
   padding-bottom: 10%;
   padding-top: 6.64%;
   text-align: center;
@@ -9039,24 +9087,37 @@ a:visited {
   width: 100%;
 }
 
-/* line 14, ../sass/pages/_front-page.scss */
+/* line 15, ../sass/pages/_front-page.scss */
+#middle-section-home {
+  padding-top: 40px;
+}
+/* line 17, ../sass/pages/_front-page.scss */
 #middle-section-home .fa, #middle-section-home h3 {
-  color: #118C4E;
+  margin: 20px auto 10px;
+  text-align: center;
+  width: 100%;
+}
+/* line 22, ../sass/pages/_front-page.scss */
+#middle-section-home p {
+  margin-top: 20px;
 }
 
-/* line 19, ../sass/pages/_front-page.scss */
+/* line 27, ../sass/pages/_front-page.scss */
 .oversized-text {
   font-size: 28px;
 }
 
-/* line 23, ../sass/pages/_front-page.scss */
+/* line 31, ../sass/pages/_front-page.scss */
 .home-cta {
   font-size: 26px;
   margin-top: 36px;
 }
 
-/* line 28, ../sass/pages/_front-page.scss */
+/* line 36, ../sass/pages/_front-page.scss */
 .homeWidgetArea {
   text-align: center;
-  margin: 80px 0;
+}
+/* line 38, ../sass/pages/_front-page.scss */
+.homeWidgetArea .textwidget {
+  border-top: 1px solid #FF9009;
 }

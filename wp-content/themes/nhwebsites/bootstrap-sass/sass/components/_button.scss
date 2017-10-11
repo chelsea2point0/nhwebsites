@@ -24,5 +24,10 @@ $button-border-width: 1px;
 
 .button-white {
     @extend button;
-    @include nhws-button-theme($white, $red);
+    @include nhws-button-theme($white, $darkGrey);
+}
+
+.button-orange {
+    @extend button;
+    @include nhws-button-theme($orange, $white);
 }

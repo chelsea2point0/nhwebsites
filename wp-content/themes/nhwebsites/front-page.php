@@ -26,14 +26,17 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
+                    <i class="fa fa-code fa-3x" aria-hidden="true"></i>
                     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Home Page Left") ) : ?>
                     <?php endif;?>
                 </div>
                 <div class="col-md-4">
+                    <i class="fa fa-search fa-3x" aria-hidden="true"></i>
                     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Home Page Middle") ) : ?>
                     <?php endif;?>
                 </div>
                 <div class="col-md-4">
+                    <i class="fa fa-line-chart fa-3x" aria-hidden="true"></i>
                     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Home Page Right") ) : ?>
                     <?php endif;?>
                 </div>
