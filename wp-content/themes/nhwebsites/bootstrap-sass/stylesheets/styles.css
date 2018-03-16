@@ -9077,9 +9077,6 @@ a:visited {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  -webkit-filter: grayscale(70%);
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(70%);
   padding-bottom: 10%;
   padding-top: 6.64%;
   text-align: center;
@@ -9087,37 +9084,37 @@ a:visited {
   width: 100%;
 }
 
-/* line 15, ../sass/pages/_front-page.scss */
+/* line 13, ../sass/pages/_front-page.scss */
 #middle-section-home {
   padding-top: 40px;
 }
-/* line 17, ../sass/pages/_front-page.scss */
+/* line 15, ../sass/pages/_front-page.scss */
 #middle-section-home .fa, #middle-section-home h3 {
   margin: 20px auto 10px;
   text-align: center;
   width: 100%;
 }
-/* line 22, ../sass/pages/_front-page.scss */
+/* line 20, ../sass/pages/_front-page.scss */
 #middle-section-home p {
   margin-top: 20px;
 }
 
-/* line 27, ../sass/pages/_front-page.scss */
+/* line 25, ../sass/pages/_front-page.scss */
 .oversized-text {
   font-size: 28px;
 }
 
-/* line 31, ../sass/pages/_front-page.scss */
+/* line 29, ../sass/pages/_front-page.scss */
 .home-cta {
   font-size: 26px;
   margin-top: 36px;
 }
 
-/* line 36, ../sass/pages/_front-page.scss */
+/* line 34, ../sass/pages/_front-page.scss */
 .homeWidgetArea {
   text-align: center;
 }
-/* line 38, ../sass/pages/_front-page.scss */
+/* line 36, ../sass/pages/_front-page.scss */
 .homeWidgetArea .textwidget {
   border-top: 1px solid #FF9009;
 }
