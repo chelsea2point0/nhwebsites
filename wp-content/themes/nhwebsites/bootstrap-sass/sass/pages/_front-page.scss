@@ -2,12 +2,22 @@
     background-image: url("/wp-content/uploads/2017/08/wooden_boards_hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     color: $white;
     padding-bottom: 10%;
     padding-top: 6.64%;
     text-align: center;
     text-shadow: 4px 4px 8px black;
     width: 100%;
+}
+
+#top-section-home > .container {
+    webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
 }
 
 #middle-section-home {
